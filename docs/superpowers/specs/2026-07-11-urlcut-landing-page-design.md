@@ -6,9 +6,9 @@ Create a premium, responsive static landing page that explains UrlCut's link-cle
 
 ## Scope
 
-- One self-contained static page, using the supplied copy in `landing_page_content.md`.
-- Korean-first content with accessible semantic HTML and responsive CSS.
-- Header navigation to Features, How it Works, Download, and FAQ sections.
+- One self-contained static page, using the supplied copy in `landing_page_content.md` and an English translation.
+- Bilingual Korean/English content with accessible semantic HTML and responsive CSS.
+- Header navigation to Features, How it Works, Download, and FAQ sections, plus an EN/KO language switcher.
 - Interactive FAQ accordions that work with keyboard and pointer input.
 - A visual before/after URL cleaner comparison and a lightweight illustrative app panel.
 - macOS calls to action scroll to the download section. The final installer URL is intentionally deferred.
@@ -34,6 +34,7 @@ The hero is centered with the headline first, two calls to action, and a compact
 
 - Header links use section anchors and smooth scrolling.
 - All download CTAs route to `#download` until a distribution URL is supplied.
+- Use Korean by default only when the browser language begins with `ko`; show English for every other browser language. Persist a visitor's EN/KO choice in `localStorage` and honor it on later visits.
 - FAQ accordions expose only one answer at a time through a small enhancement script; native `details` behavior remains available without JavaScript.
 - On small screens, the navigation collapses to a compact menu button, paired layouts stack, touch targets remain at least 44px, and long URLs wrap safely.
 
