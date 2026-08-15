@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UrlCut으로 긴 추적 링크를 깔끔하고 안전하게 공유하세요."
+    />
+    <title data-i18n="meta.title">UrlCut | 깔끔하고 안전한 링크 공유</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="UrlCut 홈" data-i18n-aria-label="brand.home">
+          <img src="app_icon.svg" alt="" width="32" height="32" />
+          <span>UrlCut</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+          data-menu-toggle
+          data-i18n-aria-label="nav.menuToggle"
+        >
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav id="primary-navigation" aria-label="주요 메뉴" data-i18n-aria-label="nav.label">
+          <a href="#features" data-i18n="nav.features">주요 기능</a>
+          <a href="#how-it-works" data-i18n="nav.howItWorks">사용 방법</a>
+          <a href="#download" data-i18n="nav.download">다운로드</a>
+          <a href="#faq" data-i18n="nav.faq">자주 묻는 질문</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switcher" role="group" aria-label="언어 선택" data-i18n-aria-label="language.label">
+            <button type="button" data-language="ko" aria-pressed="true">KO</button>
+            <button type="button" data-language="en" aria-pressed="false">EN</button>
+          </div>
+          <a class="button button-primary header-download" href="#download" data-i18n="nav.downloadCta">macOS 앱 다운로드</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">더 깔끔한 링크 공유</p>
+          <h1 id="hero-title" data-i18n="hero.title">지저분한 웹 주소는 그만!<br />링크 공유의 시작과 끝을 깔끔하게, UrlCut</h1>
+          <p class="hero-description" data-i18n="hero.description">
+            쇼핑몰, 유튜브, 뉴스 기사 링크를 공유할 때 주소 뒤에 붙은 복잡하고 긴 광고 추적 코드를 자동으로 지워줍니다. 더 깔끔하고, 더 안전하게 링크를 공유하세요.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#download" data-i18n="hero.downloadCta">📥 macOS용 무료 다운로드</a>
+            <a class="button button-secondary" href="#download" data-i18n="hero.mobileCta">📱 iOS &amp; Android 출시 예정</a>
+          </div>
+
+          <div class="product-preview" aria-label="UrlCut 링크 정제 화면 예시" data-i18n-aria-label="preview.label">
+            <div class="preview-window">
+              <div class="preview-toolbar" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="preview-content">
+                <div class="preview-brand"><img src="splash_logo.svg" alt="" /> <span>UrlCut</span></div>
+                <p data-i18n="preview.prompt">공유할 링크를 정리했어요</p>
+                <code>smartstore.naver.com/shop/products/123456</code>
+                <span class="preview-success" data-i18n="preview.success">✓ 추적 코드 제거 완료</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="comparison section" aria-labelledby="comparison-title">
+        <div class="container">
+          <p class="eyebrow" data-i18n="comparison.eyebrow">HOW IT WORKS</p>
+          <h2 id="comparison-title" data-i18n="comparison.title">주소창의 불필요한 거품을 뺍니다</h2>
+          <div class="comparison-grid">
+            <article class="link-card link-card-before">
+              <p class="card-label" data-i18n="comparison.before.label">정제 전</p>
+              <code>https://smartstore.naver.com/shop/products/123456?NaPm=ct%3Dl5v...&amp;utm_source=naver&amp;utm_medium=pcs...</code>
+              <p data-i18n="comparison.before.description">메신저 창을 가득 채우는 지저분하고 긴 마케팅 추적 코드</p>
+            </article>
+            <article class="link-card link-card-after">
+              <p class="card-label" data-i18n="comparison.after.label">정제 후</p>
+              <code>https://smartstore.naver.com/shop/products/123456</code>
+              <p data-i18n="comparison.after.description">핵심 주소만 남아 깔끔하고 보기 편한 링크</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features section" aria-labelledby="features-title">
+        <div class="container">
+          <p class="eyebrow" data-i18n="features.eyebrow">KEY FEATURES</p>
+          <h2 id="features-title" data-i18n="features.title">링크를 다루는 더 똑똑한 방법</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon" aria-hidden="true">↗</span>
+              <h3 data-i18n="features.share.title">보내기 전에 터치 한 번으로 끝!</h3>
+              <p data-i18n="features.share.description">링크를 복사하고 앱을 열어서 붙여넣을 필요가 없습니다. 모바일이나 맥북에서 브라우저나 앱의 '공유하기' 버튼을 누르고 UrlCut을 선택하면 즉시 정제된 주소로 상대방에게 보낼 수 있습니다.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon" aria-hidden="true">↓</span>
+              <h3 data-i18n="features.media.title">인스타그램 사진과 영상도 바로 저장</h3>
+              <p data-i18n="features.media.description">인스타그램 링크를 공유하면 사진이나 릴스 영상을 고화질 그대로 내 갤러리에 다운로드할 수 있습니다. 따로 다운로드 사이트를 찾아 헤매지 마세요.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon" aria-hidden="true">⌁</span>
+              <h3 data-i18n="features.sync.title">로그인 없이, 인터넷이 안 되어도 기기 간 전송</h3>
+              <p data-i18n="features.sync.description">복잡한 회원가입이나 클라우드 연결 없이도, 같은 와이파이 망에 연결된 내 맥북, 아이폰, 안드로이드 폰 간에 클릭 한 번으로 모아둔 링크를 바로 주고받을 수 있습니다.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon" aria-hidden="true">□</span>
+              <h3 data-i18n="features.organize.title">기억하기 쉽게 나만의 폴더 정리</h3>
+              <p data-i18n="features.organize.description">정제된 링크를 폴더별로 나누어 저장해 두고 나중에 다시 찾아볼 수 있습니다. 각 주소마다 내가 알아보기 쉬운 제목으로 편집해 나만의 링크 북마크를 완성해 보세요.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="privacy" class="privacy section" aria-labelledby="privacy-title">
+        <div class="container">
+          <div class="privacy-panel">
+            <p class="eyebrow" data-i18n="privacy.eyebrow">PRIVACY FIRST</p>
+            <h2 id="privacy-title" data-i18n="privacy.title">내 링크 데이터는 내 기기에 안전하게</h2>
+            <div class="privacy-points">
+              <p><strong data-i18n="privacy.protection.title">100% 프라이버시 보호</strong><span data-i18n="privacy.protection.description">UrlCut은 사용자가 저장하고 공유하는 링크를 외부 서버에 전송하거나 저장하지 않습니다.</span></p>
+              <p><strong data-i18n="privacy.offline.title">오프라인 우선</strong><span data-i18n="privacy.offline.description">모든 데이터는 내 스마트폰과 Mac 기기 내부 저장소에만 안전하게 보관되므로 유출 걱정 없이 안심하고 사용하실 수 있습니다.</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="download section" aria-labelledby="download-title">
+        <div class="container">
+          <div class="download-card">
+            <img src="app_icon.svg" alt="" width="64" height="64" />
+            <div>
+              <p class="eyebrow" data-i18n="download.eyebrow">DOWNLOAD</p>
+              <h2 id="download-title" data-i18n="download.title">지금 UrlCut을 시작해 보세요</h2>
+              <p data-i18n="download.requirement">지원 사양: macOS 12.0 이상 지원</p>
+            </div>
+            <div class="download-actions">
+              <a class="button button-primary" href="#download" data-i18n="download.macosCta">UrlCut for macOS 다운로드 (v1.0.6)</a>
+              <div class="store-badges" aria-label="모바일 앱 출시 예정" data-i18n-aria-label="download.badgesLabel">
+                <span data-i18n="download.appStore">App Store 출시 예정</span>
+                <span data-i18n="download.googlePlay">Google Play 출시 예정</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq section" aria-labelledby="faq-title">
+        <div class="container faq-container">
+          <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+          <h2 id="faq-title" data-i18n="faq.title">자주 묻는 질문</h2>
+          <details>
+            <summary data-i18n="faq.q1">링크의 뒷부분을 지우면 링크가 깨지거나 작동하지 않나요?</summary>
+            <p data-i18n="faq.a1">아닙니다. 상품 번호나 페이지 정보 등 접속에 꼭 필요한 주소는 안전하게 유지하고, 광고나 방문 추적을 위해 덧붙여진 불필요한 정보만 골라 제거하기 때문에 안전하게 작동합니다.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq.q2">로그인이나 회원가입이 필요한가요?</summary>
+            <p data-i18n="faq.a2">전혀 필요하지 않습니다. 설치 후 즉시 사용 가능하며 어떠한 개인정보도 요구하지 않습니다.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq.q3">윈도우(Windows) 버전도 지원하나요?</summary>
+            <p data-i18n="faq.a3">현재는 macOS, Android, iOS 플랫폼을 우선 지원하고 있으며, 추후 지원 플랫폼을 확장할 예정입니다.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#top" aria-label="UrlCut 홈" data-i18n-aria-label="brand.home"><span>UrlCut</span></a>
+        <a href="mailto:glorymint@gmail.com" data-i18n="footer.contact">이메일 문의: glorymint@gmail.com</a>
+        <small data-i18n="footer.copyright">© 2026 UrlCut. All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+</html>
