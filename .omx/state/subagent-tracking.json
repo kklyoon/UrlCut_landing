@@ -4,15 +4,47 @@
     "019f5055-4edc-7f71-89d3-df6a2269a324": {
       "session_id": "019f5055-4edc-7f71-89d3-df6a2269a324",
       "leader_thread_id": "019f5055-4edc-7f71-89d3-df6a2269a324",
-      "updated_at": "2026-07-11T08:47:07.802Z",
+      "updated_at": "2026-07-11T09:09:21.987Z",
       "threads": {
         "019f5055-4edc-7f71-89d3-df6a2269a324": {
           "thread_id": "019f5055-4edc-7f71-89d3-df6a2269a324",
           "kind": "leader",
           "first_seen_at": "2026-07-11T08:42:03.862Z",
-          "last_seen_at": "2026-07-11T08:47:07.802Z",
-          "last_turn_id": "019f505b-3e01-75f3-8156-4724e0f939f7",
-          "turn_count": 3
+          "last_seen_at": "2026-07-11T09:09:21.987Z",
+          "last_turn_id": "019f505e-d5d9-7913-b73e-b5019714173e",
+          "turn_count": 5
+        },
+        "019f5063-7919-75d1-b80b-8e71938ff8fd": {
+          "thread_id": "019f5063-7919-75d1-b80b-8e71938ff8fd",
+          "kind": "subagent",
+          "first_seen_at": "2026-07-11T08:56:07.848Z",
+          "last_seen_at": "2026-07-11T08:56:07.848Z",
+          "last_turn_id": "019f5063-7977-7d42-a6e2-237e242cb12d",
+          "turn_count": 1
+        },
+        "019f5064-4d1c-7cb2-93cf-d8a14943b7f1": {
+          "thread_id": "019f5064-4d1c-7cb2-93cf-d8a14943b7f1",
+          "kind": "subagent",
+          "first_seen_at": "2026-07-11T08:57:55.925Z",
+          "last_seen_at": "2026-07-11T08:57:55.925Z",
+          "last_turn_id": "019f5064-4d83-7300-bcb1-7833050178f6",
+          "turn_count": 1
+        },
+        "019f5065-af54-7063-b6d5-249c6cf1d126": {
+          "thread_id": "019f5065-af54-7063-b6d5-249c6cf1d126",
+          "kind": "subagent",
+          "first_seen_at": "2026-07-11T08:58:17.981Z",
+          "last_seen_at": "2026-07-11T08:58:17.981Z",
+          "last_turn_id": "019f5065-afac-7713-9c30-d349c99a6b96",
+          "turn_count": 1
+        },
+        "019f506f-7a32-7871-909c-b8eae393bdaf": {
+          "thread_id": "019f506f-7a32-7871-909c-b8eae393bdaf",
+          "kind": "subagent",
+          "first_seen_at": "2026-07-11T09:09:08.639Z",
+          "last_seen_at": "2026-07-11T09:09:08.639Z",
+          "last_turn_id": "019f506f-7abf-7371-ba00-d651c89f60a1",
+          "turn_count": 1
         }
       }
     }
